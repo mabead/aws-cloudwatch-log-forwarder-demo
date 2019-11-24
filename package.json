@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "bin": {
+    "example": "bin/example.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.16.3",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.9",
+    "aws-cdk": "^1.16.3",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-kinesis": "^1.16.3",
+    "@aws-cdk/aws-lambda": "^1.16.3",
+    "@aws-cdk/aws-events": "^1.16.3",
+    "@aws-cdk/aws-events-targets": "^1.16.3",
+    "@aws-cdk/aws-iam": "^1.16.3",
+    "@aws-cdk/core": "^1.16.3",
+    "source-map-support": "^0.5.9"
+  }
+}
